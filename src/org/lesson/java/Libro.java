@@ -2,10 +2,10 @@ package org.lesson.java;
 
 public class Libro {
 
-    String title;
-    int numberOfPage;
-    String author;
-    String publisher;
+    private String title;
+    private int numberOfPage;
+    private String author;
+    private String publisher;
 
     // COSTRUTTORI
     public Libro(String title, int numberOfPage, String author, String publisher) throws IllegalArgumentException{
