@@ -2,6 +2,7 @@ package org.lesson.java;
 
 public class Libro {
 
+    // VARIABILI
     private String title;
     private int numberOfPage;
     private String author;

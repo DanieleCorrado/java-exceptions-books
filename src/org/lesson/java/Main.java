@@ -44,11 +44,15 @@ public class Main {
 
         }
 
+        // Chiudo lo scanner
+
         scanner.close();
 
         // Scrivo i dati dei libri in un file
 
         FileWriter writer = null;
+
+        //Provo a srivere i dati sul file booksList.txt
 
         try {
             writer = new FileWriter("./resources/booksList.txt");
